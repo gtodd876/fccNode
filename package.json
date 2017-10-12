@@ -1,0 +1,20 @@
+{
+  "name": "fccNode",
+  "version": "1.0.0",
+  "description": "setup node api in under 30 mins",
+  "main": "index.js",
+  "author": "todd matthews",
+  "license": "mit",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.32"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
